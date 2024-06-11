@@ -16,3 +16,9 @@ looking at mediapipe - DONE used mediapipe
 5)make it pretty
 
 6)Easy way to make and apply new filters and user friendly cli or maybe a gui 
+
+# Current Issues
+
+mediapipe FaceStylizer is not working, code keeps seg faulting ... looking at tensorRT or mediapipe issues (segfault.txt has gdb backtrace output)
+
+Need to clean up repo, it is getting very messy :( 
