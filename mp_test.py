@@ -24,7 +24,7 @@ mp_face_mesh = mp.solutions.face_mesh
 
 #Camera Setup (need to make this command line argument)
 #This is your camera, for mine the internal bad camera is index 0, the good usb camera is 2, there is no camera at index 1
-camera_id = 2
+camera_id = 0
 delay = 1
 window_name = 'frame'
 

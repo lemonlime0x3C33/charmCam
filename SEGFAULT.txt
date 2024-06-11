@@ -1,0 +1,115 @@
+lemonlime@user:~/mein_Projekte/charmCam$ gdb python
+GNU gdb (Ubuntu 12.1-0ubuntu1~22.04) 12.1
+Copyright (C) 2022 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from python...
+(No debugging symbols found in python)
+(gdb) run stylizer_test.py 
+Starting program: /usr/bin/python stylizer_test.py
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7ffff3dff640 (LWP 951949)]
+[New Thread 0x7ffff35fe640 (LWP 951950)]
+[New Thread 0x7ffff0dfd640 (LWP 951951)]
+[New Thread 0x7fffee5fc640 (LWP 951952)]
+[New Thread 0x7fffebdfb640 (LWP 951953)]
+[New Thread 0x7fffe75fa640 (LWP 951954)]
+[New Thread 0x7fffe4df9640 (LWP 951955)]
+[New Thread 0x7fffe25f8640 (LWP 951956)]
+[New Thread 0x7fffe1df7640 (LWP 951957)]
+[New Thread 0x7fffdf5f6640 (LWP 951958)]
+[New Thread 0x7fffdadf5640 (LWP 951959)]
+[Detaching after vfork from child process 951961]
+[New Thread 0x7fffc840a640 (LWP 951962)]
+[Thread 0x7fffc840a640 (LWP 951962) exited]
+[New Thread 0x7fffc840a640 (LWP 951963)]
+[Thread 0x7fffc840a640 (LWP 951963) exited]
+[New Thread 0x7fffc840a640 (LWP 951964)]
+[Thread 0x7fffc840a640 (LWP 951964) exited]
+[New Thread 0x7fffc840a640 (LWP 951965)]
+[Thread 0x7fffc840a640 (LWP 951965) exited]
+[New Thread 0x7fffc840a640 (LWP 951966)]
+[Thread 0x7fffc840a640 (LWP 951966) exited]
+[New Thread 0x7fffc840a640 (LWP 951967)]
+[Thread 0x7fffc840a640 (LWP 951967) exited]
+[New Thread 0x7fffc840a640 (LWP 951968)]
+[Thread 0x7fffc840a640 (LWP 951968) exited]
+2024-06-11 21:48:01.269881: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-06-11 21:48:02.232359: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[New Thread 0x7fffc840a640 (LWP 951973)]
+[New Thread 0x7fff827ff640 (LWP 951974)]
+[New Thread 0x7fff7dffe640 (LWP 951975)]
+[New Thread 0x7fff7d7fd640 (LWP 951976)]
+[New Thread 0x7fff78ffc640 (LWP 951977)]
+[New Thread 0x7fff787fb640 (LWP 951978)]
+[New Thread 0x7fff73ffa640 (LWP 951979)]
+[New Thread 0x7fff717f9640 (LWP 951980)]
+[New Thread 0x7fff6eff8640 (LWP 951981)]
+[New Thread 0x7fff6e7f7640 (LWP 951982)]
+[New Thread 0x7fff69ff6640 (LWP 951983)]
+[New Thread 0x7fff44bff640 (LWP 951999)]
+[New Thread 0x7fff443fe640 (LWP 952000)]
+[New Thread 0x7fff43bfd640 (LWP 952001)]
+[New Thread 0x7fff433fc640 (LWP 952002)]
+[New Thread 0x7fff42bfb640 (LWP 952003)]
+[New Thread 0x7fff423fa640 (LWP 952004)]
+[New Thread 0x7fff41bf9640 (LWP 952005)]
+[New Thread 0x7fff413f8640 (LWP 952006)]
+[New Thread 0x7fff40bf7640 (LWP 952007)]
+[New Thread 0x7fff23fff640 (LWP 952008)]
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1718135286.603139  951946 gl_context_egl.cc:85] Successfully initialized EGL. Major : 1 Minor: 5
+[New Thread 0x7fff237fe640 (LWP 952009)]
+[New Thread 0x7fff22ffd640 (LWP 952010)]
+[New Thread 0x7fff227fc640 (LWP 952011)]
+I0000 00:00:1718135286.608317  952011 gl_context.cc:357] GL version: 3.2 (OpenGL ES 3.2 Mesa 23.2.1-1ubuntu3.1~22.04.2), renderer: Mesa Intel(R) UHD Graphics (CML GT2)
+W0000 00:00:1718135286.609336  951946 image_tensor_specs.cc:248] TFLite model has more than 1 subgraphs. Use subrgaph 0 as the primary subgraph for inference
+[New Thread 0x7fff0ffff640 (LWP 952012)]
+[New Thread 0x7fff0f7fe640 (LWP 952013)]
+[New Thread 0x7fff0effd640 (LWP 952014)]
+[New Thread 0x7fff0e7fc640 (LWP 952015)]
+[New Thread 0x7fff0dffb640 (LWP 952016)]
+[New Thread 0x7fff0d7fa640 (LWP 952017)]
+[New Thread 0x7fff0cff9640 (LWP 952018)]
+[New Thread 0x7ffef3fff640 (LWP 952019)]
+[New Thread 0x7ffef37fe640 (LWP 952020)]
+[New Thread 0x7ffef2ffd640 (LWP 952021)]
+[New Thread 0x7ffef27fc640 (LWP 952022)]
+[New Thread 0x7ffef1ffb640 (LWP 952023)]
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1718135286.614196  952014 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+WARNING: Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#911 is a dynamic-sized tensor).
+[New Thread 0x7ffef0ae2640 (LWP 952024)]
+[New Thread 0x7ffed593e640 (LWP 952025)]
+[New Thread 0x7ffed513d640 (LWP 952026)]
+[New Thread 0x7ffed493c640 (LWP 952027)]
+
+Thread 43 "mediapipe_gl_ru" received signal SIGSEGV, Segmentation fault.
+[Switching to Thread 0x7fff227fc640 (LWP 952011)]
+0x00007fffd68da1d1 in mediapipe::tasks::TensorsToImageCalculator::GlProcess(mediapipe::CalculatorContext*)::{lambda()#1}::operator()() const () from /home/lemonlime/.local/lib/python3.10/site-packages/mediapipe/python/_framework_bindings.cpython-310-x86_64-linux-gnu.so
+(gdb) backtrace
+#0  0x00007fffd68da1d1 in mediapipe::tasks::TensorsToImageCalculator::GlProcess(mediapipe::CalculatorContext*)::{lambda()#1}::operator()() const ()
+   from /home/lemonlime/.local/lib/python3.10/site-packages/mediapipe/python/_framework_bindings.cpython-310-x86_64-linux-gnu.so
+#1  0x00007fffd68db0d2 in std::_Function_handler<absl::Status (), mediapipe::tasks::TensorsToImageCalculator::GlProcess(mediapipe::CalculatorContext*)::{lambda()#1}>::_M_invoke(std::_Any_data const&) ()
+   from /home/lemonlime/.local/lib/python3.10/site-packages/mediapipe/python/_framework_bindings.cpython-310-x86_64-linux-gnu.so
+#2  0x00007fffd70ce6b1 in std::_Function_handler<absl::Status (), mediapipe::GlContext::Run(std::function<absl::Status ()>, int, mediapipe::Timestamp)::{lambda()#2}>::_M_invoke(std::_Any_data const&) ()
+   from /home/lemonlime/.local/lib/python3.10/site-packages/mediapipe/python/_framework_bindings.cpython-310-x86_64-linux-gnu.so
+#3  0x00007fffd70cdd07 in mediapipe::GlContext::DedicatedThread::Run(std::function<absl::Status ()>) ()
+   from /home/lemonlime/.local/lib/python3.10/site-packages/mediapipe/python/_framework_bindings.cpython-310-x86_64-linux-gnu.so
+#4  0x00007fffd70cffc2 in mediapipe::GlContext::Run(std::function<absl::Status ()>, int, mediapipe::Timestamp) ()
+   from /home/lemonlime/.local/lib/python3.10/site-packages/mediapipe/python/_framework_bindings.cpython-310-x86_64-linux-gnu.so
+#5  0x00007fffd6c06f4b in mediapipe::GlCalculatorHelper::RunInGlContext(std::function<absl::Status ()>, mediapipe::CalculatorContext*) ()
+   from /home/lemonlime/.local/lib/python3.10/site-packages/mediapipe/python/_framework_bindings.cpython-310-x86_64-linux-gnu.so

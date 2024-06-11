@@ -3,7 +3,7 @@ import sys
 
 
 #camera 2 is the good usb camera, 0 is the bad internal one, 1 doesn't exist for some reason...
-camera_id = 2
+camera_id = 0
 delay = 1
 window_name = 'frame'
 
